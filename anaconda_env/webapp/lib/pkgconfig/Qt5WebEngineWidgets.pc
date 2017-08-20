@@ -1,0 +1,14 @@
+prefix=/Users/tac_nakadai/anaconda/envs/webapp
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt
+
+
+Name: Qt5 WebEngineWidgets
+Description: Qt WebEngineWidgets module
+Version: 5.6.2
+Libs: -L${libdir} -lQt5WebEngineWidgets 
+Libs.private: -L/Users/tac_nakadai/anaconda/envs/webapp/lib -lQt5WebEngineCore -L/Users/tac_nakadai/anaconda/envs/webapp/lib -L/Users/tac_nakadai/anaconda/envs/webapp/lib -framework DiskArbitration -framework IOKit -L/Users/tac_nakadai/anaconda/envs/webapp/lib -L/Users/tac_nakadai/anaconda/envs/webapp/lib -lQt5Quick -lQt5Widgets -lQt5Gui -lQt5WebChannel -lQt5Qml -lQt5Network -lQt5Core -lQt5Quick -L/Users/tac_nakadai/anaconda/envs/webapp/lib -framework DiskArbitration -framework IOKit -L/Users/tac_nakadai/anaconda/envs/webapp/lib -L/Users/tac_nakadai/anaconda/envs/webapp/lib -lQt5Gui -lQt5Qml -lQt5Network -lQt5Core -framework OpenGL -framework AGL  
+Cflags: -I${includedir}/QtWebEngineWidgets -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5WebEngineCore Qt5Widgets Qt5Network Qt5Quick
+

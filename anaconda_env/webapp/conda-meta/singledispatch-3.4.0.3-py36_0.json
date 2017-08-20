@@ -1,0 +1,42 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/free/osx-64",
+  "date": "2016-12-23",
+  "depends": [
+    "python 3.6*",
+    "six"
+  ],
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/singledispatch.cpython-36.pyc",
+    "lib/python3.6/site-packages/__pycache__/singledispatch_helpers.cpython-36.pyc",
+    "lib/python3.6/site-packages/singledispatch-3.4.0.3-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/singledispatch-3.4.0.3-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/singledispatch-3.4.0.3-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/singledispatch-3.4.0.3-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/singledispatch-3.4.0.3-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/singledispatch-3.4.0.3-py3.6.egg-info/zip-safe",
+    "lib/python3.6/site-packages/singledispatch.py",
+    "lib/python3.6/site-packages/singledispatch_helpers.py"
+  ],
+  "fn": "singledispatch-3.4.0.3-py36_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/tac_nakadai/anaconda/pkgs/singledispatch-3.4.0.3-py36_0",
+    "type": 1
+  },
+  "md5": "914077f3b0b7bce77d2cfc83249a830e",
+  "name": "singledispatch",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 1,
+  "schannel": "defaults",
+  "size": 14501,
+  "subdir": "osx-64",
+  "url": "https://repo.continuum.io/pkgs/free/osx-64/singledispatch-3.4.0.3-py36_0.tar.bz2",
+  "version": "3.4.0.3",
+  "with_features_depends": {}
+}

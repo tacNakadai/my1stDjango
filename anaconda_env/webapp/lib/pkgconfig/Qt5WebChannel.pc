@@ -1,0 +1,14 @@
+prefix=/Users/tac_nakadai/anaconda/envs/webapp
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt
+
+
+Name: Qt5 WebChannel
+Description: Qt WebChannel module
+Version: 5.6.2
+Libs: -L${libdir} -lQt5WebChannel 
+Libs.private: -L/Users/tac_nakadai/anaconda/envs/webapp/lib -lQt5Qml -L/Users/tac_nakadai/anaconda/envs/webapp/lib -framework DiskArbitration -framework IOKit -L/Users/tac_nakadai/anaconda/envs/webapp/lib -lQt5Network -lQt5Core   
+Cflags: -I${includedir}/QtWebChannel -I${includedir}
+Requires: Qt5Core Qt5Qml
+

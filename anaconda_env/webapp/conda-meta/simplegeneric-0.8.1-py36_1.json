@@ -1,0 +1,35 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py36_1",
+  "build_number": 1,
+  "channel": "https://repo.continuum.io/pkgs/free/osx-64",
+  "date": "2016-12-23",
+  "depends": [
+    "python 3.6*"
+  ],
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/simplegeneric.cpython-36.pyc",
+    "lib/python3.6/site-packages/simplegeneric-0.8.1-py3.6.egg-info",
+    "lib/python3.6/site-packages/simplegeneric.py"
+  ],
+  "fn": "simplegeneric-0.8.1-py36_1.tar.bz2",
+  "license": "ZPL 2.1",
+  "license_family": "Other",
+  "link": {
+    "source": "/Users/tac_nakadai/anaconda/pkgs/simplegeneric-0.8.1-py36_1",
+    "type": 1
+  },
+  "md5": "8b3e390a7c81e7768d633ca405b002e8",
+  "name": "simplegeneric",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 1,
+  "schannel": "defaults",
+  "size": 7817,
+  "subdir": "osx-64",
+  "url": "https://repo.continuum.io/pkgs/free/osx-64/simplegeneric-0.8.1-py36_1.tar.bz2",
+  "version": "0.8.1",
+  "with_features_depends": {}
+}

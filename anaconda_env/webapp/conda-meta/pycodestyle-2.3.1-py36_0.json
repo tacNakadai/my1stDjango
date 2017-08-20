@@ -1,0 +1,42 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/free/osx-64",
+  "date": "2017-02-14",
+  "depends": [
+    "python 3.6*"
+  ],
+  "files": [
+    "bin/pycodestyle",
+    "lib/python3.6/site-packages/__pycache__/pycodestyle.cpython-36.pyc",
+    "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/entry_points.txt",
+    "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/namespace_packages.txt",
+    "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/pycodestyle-2.3.1-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/pycodestyle.py"
+  ],
+  "fn": "pycodestyle-2.3.1-py36_0.tar.bz2",
+  "license": "MIT License",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/tac_nakadai/anaconda/pkgs/pycodestyle-2.3.1-py36_0",
+    "type": 1
+  },
+  "md5": "6d9101e4704065ab76e86872b08c20f1",
+  "name": "pycodestyle",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 1,
+  "schannel": "defaults",
+  "size": 55488,
+  "subdir": "osx-64",
+  "url": "https://repo.continuum.io/pkgs/free/osx-64/pycodestyle-2.3.1-py36_0.tar.bz2",
+  "version": "2.3.1",
+  "with_features_depends": {}
+}
